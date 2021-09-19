@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+.sidebar {
+    background-color: #006599;
+    height: 100vh;
+    width: 30%;
+    float: left;
+    color: white;
+    text-align: center;
+    position: fixed;
+}
+.sidebar-header {
+    margin: 70px 0;
+}
+.sidebar-header h1 {
+    font-weight: 400 ;
+    font-size: 38px;
+    margin-top: 7px;
+}
+.sidebar-body-list {
+    list-style: none;
+}
+.sidebar-body-list li {
+    margin: 60px;
+}
+.sidebar-body-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+}
+.sidebar-body-list li a:hover {
+    color: #f4ef5e ;
+}
+.content {
+    margin-left: 30%;
+}
+.content .content-header img {
+    width: 100%;
+}
+.content-welcome {
+    margin: 50px 50px 80px;
+}
+.content-welcome h2 {
+    font-weight: 400;
+    color: #006599;
+    font-size: 3rem;
+    margin-bottom: 35px;
+}
+.content-welcome p {
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 300;
+}
+.content-about {
+    margin: 50px 50px 80px;
+}
+.content-about-image {
+    float: left;
+    margin-right: 50px;
+    width: 250px;
+}
+.content-about-image img {
+    width: 100%;
+}
+.content-about-info h3 {
+    font-weight: 400;
+    color: #006599;
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+.content-about-info p {
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.content-about-info a {
+    margin-left: 300px;
+    text-decoration: none;
+    background-color: #006599;
+    color: white;
+    padding: 20px 60px;
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+}
+.content-about-info a:hover {
+    background-color: #2790c6;
+}
+.first-gallery {
+    margin: 50px 50px 80px;
+}
+.first-gallery h3 {
+    font-weight: 400;
+    color: #006599;
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+.first-gallery .first-gallery-column {
+    float: left;
+    width: 20%;
+    padding: 8px;
+}
+.first-gallery .first-gallery-column img {
+    width: 100%;
+}
+.second-gallery {
+    margin: 50px 50px 80px;
+}
+.second-gallery h3 {
+    font-weight: 400;
+    color: #006599;
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+.second-gallery .second-gallery-column {
+    float: left;
+    width: 33.33%;
+    padding: 8px;
+}
+.second-gallery .second-gallery-column img {
+    width: 100%;
+}
+.Third-gallery {
+    margin: 50px 50px 80px;
+}
+.Third-gallery .Third-gallery-column {
+    float: left;
+    width: 25%;
+    padding: 8px;
+}
+.Third-gallery h3 {
+    font-weight: 400;
+    color: #006599;
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+.Third-gallery .Third-gallery-column img {
+    width: 100%;
+}
+.content-contact {
+    margin: 50px 50px 80px;
+}
+.content-contact h3 {
+    font-weight: 400;
+    color: #006599;
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+.contact-form {
+    float: left;
+    width: 50%;
+    margin-right: 30px;
+}
+.contact-form .form-group {
+    margin-bottom: 12px ;
+}
+.contact-form input {
+    height: 45px;
+}
+.contact-form input,
+.contact-form textarea:focus {
+    border-color: #66afe9;
+}
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #006599;
+    outline: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: #55595c;
+}
+.contact-form input::placeholder, 
+.contact-form textarea::placeholder {
+    color: #4286ab;
+}
+.form-group button {
+    color: white;
+    background-color: #006599;
+    padding: 18px 35px;
+    font-weight: 300;
+    font-size: 24px;
+    border: none;
+}
+.form-group button:hover {
+    background-color: #2790c6;
+    cursor: pointer;
+}
+.contact-info p {
+    margin-bottom: 16px;
+}
+.contact-info p,
+.contact-info address {
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 300;
+    color: #55595c ;
+}
+.footer {
+    margin: 50px 50px 80px;
+    /* display: flex;
+    justify-content: center;
+    margin-bottom: 30px; */
+    margin-top: -5px;
+}
+.footer p {
+    font-weight: 300;
+    font-size: 20px; 
+}
+.footer p span {
+    color: #006599;
+    font-weight: 400;
+}
